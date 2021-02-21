@@ -1,0 +1,174 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.slidershow{
+  width: 950px;
+  height: 550px;
+  overflow: hidden;
+}
+
+.middle{
+  position: absolute;
+  top: 30%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  box-shadow: 25px 25px 15px black;
+}
+
+.navigation{
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar{
+  width: 100px;
+  height: 20px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 3.5s;
+}
+
+.bar:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0%;
+}
+#r2:checked~ .s1{
+  margin-left: -20%;
+}
+#r3:checked~ .s1{
+  margin-left: -40%;
+}
+#r4:checked~ .s1{
+  margin-left: -60%;
+}
+#r5:checked~ .s1{
+  margin-left: -80%;
+}
+
+.geral{
+  width: 1320px;
+  margin: 0 auto;
+}
+
+header{
+  width: 1320px;
+  height: 2000px;
+  background: #1c2426;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  background: black;
+  width: 1320px;
+  position: relative;
+}
+
+nav:hover{
+  background: black;
+  width: 1321px;
+}
+
+nav ul li{
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 20px 85px;
+  position: relative;
+  border-bottom: 3px solid #0dbf81;
+}
+
+nav ul li:hover{
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: 6px solid white;
+}
+
+section {
+ 
+}
+
+.nameSite{
+  display: inline;
+  transition: 2.5s;
+}
+
+
+.letter1 {
+  color: white;
+  width: 25px;
+  margin-top: 50%;
+  margin-left: 46%;
+  list-style: none;
+  display: inline;
+  transition: 3.0s;
+}
+
+.letter2 {
+  color: white;
+  width: 70px;
+  margin-top: 50%;
+  margin-left: 1px;
+  list-style: none;
+  display: inline;
+  transition: 3.0s;
+}
+
+
+.filme{
+  width: 950px;
+  height: 550px;
+  margin-left: 14%;
+  margin-top: 5%;
+  box-shadow: 25px 25px 15px black;
+}
+
+.wellcome{
+  margin-left: 35%;
+  color: #09c4d9;
+  transition: 3.5s;
+}
+
+.giflist {
+  margin-top: 50%;
+  margin-left: 27%;
+  color: #0dbf81;
+}
+
+.galeriatext{
+  margin-left: 38%;
+  color: white;
+  transition: 3.5s;
+}
